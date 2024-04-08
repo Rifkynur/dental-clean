@@ -14,7 +14,7 @@ const AboutComponent = () => {
         <p>
           We are a team of 3 certified dentists specialised in offering the best dental treatments in town. With adequate experience of over 12 years, we have mastered the skills of offering the best solutions with the latest technologies.{" "}
         </p>
-        <Link to={"/about"}>
+        <Link to={"/dental-clean/about"}>
           <button className="text-white bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-800 transition-all">Read More</button>
         </Link>
       </div>

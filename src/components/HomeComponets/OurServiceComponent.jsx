@@ -35,7 +35,7 @@ const OurServiceComponent = () => {
         </div>
       </div>
       <div className="text-center pt-6">
-        <Link to={"/services"}>
+        <Link to={"/dental-clean/services"}>
           <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-800 transition-all">View All Services</button>
         </Link>
       </div>
