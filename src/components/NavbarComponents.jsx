@@ -34,16 +34,16 @@ const NavbarComponents = () => {
               <IoCloseCircleOutline size={20} />
             </li>
             <li className="hover:text-blue-600 transition-all">
-              <NavLink to={"/"}>Home</NavLink>
+              <NavLink to={"/dental-clean/"}>Home</NavLink>
             </li>
             <li className="hover:text-blue-600 transition-all">
-              <NavLink to={"/about"}>About</NavLink>
+              <NavLink to={"/dental-clean/about"}>About</NavLink>
             </li>
             <li className="hover:text-blue-600 transition-all">
-              <NavLink to={"/services"}>Service</NavLink>
+              <NavLink to={"/dental-clean/services"}>Service</NavLink>
             </li>
             <li className="hover:text-blue-600 transition-all">
-              <NavLink to={"/contact"}>Contact</NavLink>
+              <NavLink to={"/dental-clean/contact"}>Contact</NavLink>
             </li>
           </ul>
         </nav>

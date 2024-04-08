@@ -13,11 +13,11 @@ function App() {
     <>
       <NavbarComponents />
       <Routes>
-        <Route path="/" element={<HomePages />}></Route>
-        <Route path="/about" element={<AboutPages />}></Route>
-        <Route path="/services" element={<ServicePages />}></Route>
-        <Route path="/contact" element={<ContactPage />}></Route>
-        <Route path="/*" element={<NotFoundPages />}></Route>
+        <Route path="/dental-clean/" element={<HomePages />}></Route>
+        <Route path="/dental-clean/about" element={<AboutPages />}></Route>
+        <Route path="/dental-clean/services" element={<ServicePages />}></Route>
+        <Route path="/dental-clean/contact" element={<ContactPage />}></Route>
+        <Route path="/dental-clean/*" element={<NotFoundPages />}></Route>
       </Routes>
       <ToTop />
       <FooterComponent />
